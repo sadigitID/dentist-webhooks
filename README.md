@@ -26,7 +26,7 @@ POST v1/webhooks/scans/{patient_id}
 
 ## Description
 
-This webhook endpoint is used to receive **scan update notifications** from an external manufacturing or scanning system.
+This webhook endpoint is used to receive **scan update notifications** from an external scanning system.
 
 The system validates the webhook signature, locates the active case for the given patient, records an activity log, and processes the scan update.
 
