@@ -10,8 +10,14 @@ This endpoint is **server-to-server (webhook)** and uses the application's stand
 
 ## Base URL
 
+
 ```
 https://dentist-api.sadigit.co.id
+```
+## Endpoint
+
+```
+POST v1/webhooks/scans/{doctor_id}/{event_type}
 ```
 ```json
 {
@@ -46,10 +52,6 @@ https://dentist-api.sadigit.co.id
         "self": "https://gateway.eu2.dental-monitoring.com/api/v2/events/526143558"
     }
 }```
----
 
-## Endpoint
 
-```
-POST v1/webhooks/scans/{doctor_id}/{event_type}
-```
+
