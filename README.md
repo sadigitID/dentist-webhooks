@@ -51,7 +51,4 @@ POST v1/webhooks/scans/{doctor_id}/{event_type}
     {
         "self": "https://gateway.eu2.dental-monitoring.com/api/v2/events/526143558"
     }
-}```
-
-
-
+}
